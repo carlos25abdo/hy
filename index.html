@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>آية الإخبارية | منصة عربية إخبارية متكاملة</title>
+    <meta
+      name="description"
+      content="موقع إخباري عربي متكامل بتصميم متميز ومتجاوب بالكامل مع الهواتف والأجهزة اللوحية والشاشات الكبيرة."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="breaking-news-bar">
+        <div class="breaking-label"><i class="fas fa-bolt"></i><span>عاجل</span></div>
+        <div class="breaking-content ticker-wrap">
+          <div class="ticker-move">
+            <span class="ticker-item">آية الإخبارية تطلق نسخة جديدة متجاوبة بالكامل مع الهواتف... توسعة كبرى في أقسام الأخبار العالمية والاقتصادية والتقنية... تجربة تصفح أسرع وأكثر تفاعلية على جميع الأجهزة.</span>
+            <span class="ticker-item" aria-hidden="true">آية الإخبارية تطلق نسخة جديدة متجاوبة بالكامل مع الهواتف... توسعة كبرى في أقسام الأخبار العالمية والاقتصادية والتقنية... تجربة تصفح أسرع وأكثر تفاعلية على جميع الأجهزة.</span>
+          </div>
+        </div>
+      </div>
+
+      <header class="main-header">
+        <div class="container nav-container">
+          <a href="#top" class="logo-link" aria-label="العودة إلى أعلى الصفحة">
+            <img src="assets/logo.png" alt="شعار آية الإخبارية" class="logo-img" />
+            <div class="title-sub">
+              <span class="site-name">آية الإخبارية</span>
+              <span class="site-tagline">خبر أسرع، رؤية أوضح، وتجربة عربية ممتازة</span>
+            </div>
+          </a>
+
+          <nav class="main-nav" aria-label="التنقل الرئيسي">
+            <ul class="nav-links">
+              <li><a href="#news" class="nav-item">الرئيسية</a></li>
+              <li><a href="#economy" class="nav-item">اقتصاد</a></li>
+              <li><a href="#tech" class="nav-item">تكنولوجيا</a></li>
+              <li><a href="#sports" class="nav-item">رياضة</a></li>
+              <li><a href="#archive" class="nav-item">الأرشيف</a></li>
+              <li><a href="#contact" class="nav-item">تواصل معنا</a></li>
+            </ul>
+          </nav>
+
+          <div class="header-tools">
+            <button id="theme-toggle" class="theme-btn" aria-label="تبديل الوضع الليلي">
+              <i class="fas fa-moon"></i>
+            </button>
+            <span id="header-date" class="date-display">--</span>
+            <a href="#archive" class="header-cta">آخر التحديثات</a>
+            <button class="mobile-nav-toggle" aria-label="فتح القائمة">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="hero-stage">
+          <div class="container">
+            <div class="hero-carousel reveal-on-scroll">
+              <div class="hero-intro-panel">
+                <span class="hero-kicker">منصة إخبارية متكاملة لكل شاشة</span>
+                <div class="hero-copy">
+                  <h1>تصميم متميز، أخبار أكثر، وتجربة هاتف قوية جدًا بدون تنازلات</h1>
+                  <p>
+                    تم تحويل الواجهة إلى موقع إخباري أوضح وأكثر اكتمالًا، مع أقسام متعددة،
+                    بطاقات أغنى، تنقل فعّال، وعناصر تفاعلية تعمل بسلاسة على الهاتف والتابلت والديسكتوب.
+                  </p>
+                </div>
+                <div class="hero-actions">
+                  <a href="#news" class="hero-btn primary-btn">ابدأ التصفح</a>
+                  <a href="#contact" class="hero-btn secondary-btn">أرسل لنا رسالة</a>
+                </div>
+                <div class="hero-mini-stats">
+                  <div class="mini-stat">
+                    <strong>120+</strong>
+                    <span>قصة قابلة للتوسعة</span>
+                  </div>
+                  <div class="mini-stat">
+                    <strong>RTL</strong>
+                    <span>واجهة عربية أصلية</span>
+                  </div>
+                  <div class="mini-stat">
+                    <strong>Mobile</strong>
+                    <span>متوافق بالكامل مع الهاتف</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-container" id="main-carousel">
+                <div class="carousel-track">
+                  <article class="carousel-slide active">
+                    <img src="assets/news.png" alt="أخبار عالمية" />
+                    <div class="slide-content">
+                      <span class="category-tag bg-red">قضايا دولية</span>
+                      <h2>تغطية يومية أوسع للأحداث العالمية مع تجربة تصفح أسرع على الهاتف</h2>
+                      <p>تصميم يحافظ على وضوح الخبر الرئيسي ويمنح القارئ وصولًا سريعًا إلى أهم الأقسام.</p>
+                    </div>
+                  </article>
+
+                  <article class="carousel-slide">
+                    <img src="assets/economy.png" alt="اقتصاد وأعمال" />
+                    <div class="slide-content">
+                      <span class="category-tag bg-blue">اقتصاد وأعمال</span>
+                      <h2>لوحات عرض مرنة للأرقام والمؤشرات مع قراءة أفضل على الشاشات الصغيرة</h2>
+                      <p>تم تحسين المسافات، الأحجام، وحركة الأقسام لتبقى التجربة أنيقة ومريحة في كل المقاسات.</p>
+                    </div>
+                  </article>
+
+                  <article class="carousel-slide">
+                    <img src="assets/tech.png" alt="تقنية وابتكار" />
+                    <div class="slide-content">
+                      <span class="category-tag bg-cyan">تقنية وابتكار</span>
+                      <h2>محتوى تقني أقرب للقارئ مع بطاقات أكثر حيوية وروابط تنقل تعمل بالكامل</h2>
+                      <p>كل زر أساسي في الواجهة أصبح يؤدي وظيفة واضحة بدل أن يكون عنصرًا شكليًا فقط.</p>
+                    </div>
+                  </article>
+                </div>
+
+                <div class="carousel-controls">
+                  <button id="prev-slide" type="button" aria-label="الشريحة السابقة">
+                    <i class="fas fa-chevron-right"></i>
+                  </button>
+                  <button id="next-slide" type="button" aria-label="الشريحة التالية">
+                    <i class="fas fa-chevron-left"></i>
+                  </button>
+                </div>
+
+                <div class="carousel-dots" aria-label="مؤشرات الشرائح"></div>
+              </div>
+            </div>
+
+            <section class="highlights-strip reveal-on-scroll">
+              <article class="highlight-box">
+                <span class="highlight-number">01</span>
+                <div>
+                  <h3>تنقل فعّال بالكامل</h3>
+                  <p>كل روابط الهيدر والفوتر تنقل إلى أقسام حقيقية داخل الصفحة.</p>
+                </div>
+              </article>
+              <article class="highlight-box">
+                <span class="highlight-number">02</span>
+                <div>
+                  <h3>محتوى أوسع</h3>
+                  <p>إضافة أقسام أخبار متعددة وبطاقات أكثر لتبدو الصفحة كموقع متكامل.</p>
+                </div>
+              </article>
+              <article class="highlight-box">
+                <span class="highlight-number">03</span>
+                <div>
+                  <h3>هاتف أولًا</h3>
+                  <p>تخطيطات خاصة للموبايل مع أحجام مدروسة ولمسات تفاعلية أخف.</p>
+                </div>
+              </article>
+            </section>
+          </div>
+        </section>
+
+        <section class="content-area">
+          <div class="container">
+            <div class="grid-system">
+              <article class="main-content reveal-on-scroll">
+                <section id="news" class="category-section">
+                  <div class="group-header">
+                    <h3>أحدث الأخبار</h3>
+                    <a href="#archive" class="view-all">كل الأخبار <i class="fas fa-arrow-left"></i></a>
+                  </div>
+
+                  <div class="news-cards-grid">
+                    <article class="news-card featured-card">
+                      <div class="card-img-wrapper">
+                        <img src="assets/news.png" alt="ملف خاص" />
+                        <span class="tag">ملف خاص</span>
+                      </div>
+                      <div class="card-info">
+                        <span class="card-chip">واجهة رئيسية</span>
+                        <h4>إعادة تشكيل المشهد الإعلامي الرقمي في المنطقة بخطوات أسرع وأذكى</h4>
+                        <p>الواجهة الرئيسية أصبحت تعرض الخبر الأبرز بوضوح أعلى مع أزرار قراءة وانتقال تعمل بصورة مباشرة وواضحة.</p>
+                        <div class="card-actions">
+                          <a href="#archive" class="action-link">اقرأ المزيد</a>
+                          <a href="#contact" class="action-link ghost-link">شارك رأيك</a>
+                        </div>
+                        <span class="time"><i class="far fa-clock"></i> منذ 45 دقيقة</span>
+                      </div>
+                    </article>
+
+                    <article class="news-card">
+                      <div class="card-img-wrapper">
+                        <img src="assets/tech.png" alt="خبر تقني" />
+                        <span class="tag">تكنولوجيا</span>
+                      </div>
+                      <div class="card-info">
+                        <span class="card-chip">ابتكار</span>
+                        <h4>منصات الذكاء الاصطناعي تدخل مرحلة جديدة من الخدمات المحلية</h4>
+                        <p>بطاقات أقصر وأكثر توازنًا على الهاتف، مع مساحة أزرار أفضل للمس والقراءة.</p>
+                        <div class="card-actions">
+                          <a href="#tech" class="action-link">المزيد</a>
+                        </div>
+                        <span class="time"><i class="far fa-clock"></i> منذ ساعة</span>
+                      </div>
+                    </article>
+
+                    <article class="news-card">
+                      <div class="card-img-wrapper">
+                        <img src="assets/economy.png" alt="خبر اقتصادي" />
+                        <span class="tag">اقتصاد</span>
+                      </div>
+                      <div class="card-info">
+                        <span class="card-chip">أسواق</span>
+                        <h4>مؤشرات جديدة تدعم نمو الاستثمارات الرقمية في الشرق الأوسط</h4>
+                        <p>ترتيب المعلومات داخل البطاقات أصبح أوضح وأكثر اتساقًا في جميع أحجام الشاشات.</p>
+                        <div class="card-actions">
+                          <a href="#economy" class="action-link">استعرض القسم</a>
+                        </div>
+                        <span class="time"><i class="far fa-clock"></i> منذ ساعتين</span>
+                      </div>
+                    </article>
+
+                    <article class="news-card">
+                      <div class="card-img-wrapper">
+                        <img src="assets/sports.png" alt="خبر رياضي" />
+                        <span class="tag">رياضة</span>
+                      </div>
+                      <div class="card-info">
+                        <span class="card-chip">تغطية</span>
+                        <h4>استعدادات كبرى للمواجهة النهائية وسط توقعات بجمهور قياسي</h4>
+                        <p>تصميم أكثر مرونة يمنح القسم الرياضي حضورًا بصريًا أقوى على الموبايل.</p>
+                        <div class="card-actions">
+                          <a href="#sports" class="action-link">اذهب للقسم</a>
+                        </div>
+                        <span class="time"><i class="far fa-clock"></i> منذ 3 ساعات</span>
+                      </div>
+                    </article>
+                  </div>
+                </section>
+
+                <section id="economy" class="news-block reveal-on-scroll">
+                  <div class="group-header">
+                    <h3>اقتصاد وأعمال</h3>
+                    <a href="#archive" class="view-all">جميع التقارير</a>
+                  </div>
+                  <div class="sub-grid three-grid">
+                    <article class="mini-card">
+                      <img src="assets/economy.png" alt="الأسواق" />
+                      <div class="mini-card-body">
+                        <span class="mini-tag">أسواق</span>
+                        <h4>استقرار مرتقب في أسواق الصرف مع تحسن شهية المخاطرة</h4>
+                        <p>عرض مبسط وسريع للأخبار القصيرة مع تجربة لمس مريحة على الهاتف.</p>
+                      </div>
+                    </article>
+                    <article class="mini-card">
+                      <img src="assets/reports.png" alt="التقارير" />
+                      <div class="mini-card-body">
+                        <span class="mini-tag">تحليل</span>
+                        <h4>الشركات الناشئة تحافظ على زخمها رغم تغيرات التمويل</h4>
+                        <p>تنظيم مرئي جديد يدعم قراءة المؤشرات والملفات الخاصة بسلاسة.</p>
+                      </div>
+                    </article>
+                    <article class="mini-card">
+                      <img src="assets/news.png" alt="السياحة الرقمية" />
+                      <div class="mini-card-body">
+                        <span class="mini-tag">سياحة</span>
+                        <h4>نمو الطلب على السياحة الرقمية يدفع المنصات لتوسعات أكبر</h4>
+                        <p>بطاقات مهيأة للعمل جيدًا من عرض 320px وحتى الشاشات الكبيرة.</p>
+                      </div>
+                    </article>
+                  </div>
+                </section>
+
+                <section id="tech" class="news-block reveal-on-scroll">
+                  <div class="group-header">
+                    <h3>تكنولوجيا</h3>
+                    <a href="#archive" class="view-all">كل الجديد تقنيًا</a>
+                  </div>
+                  <div class="sub-grid two-feature-grid">
+                    <article class="feature-panel">
+                      <img src="assets/tech.png" alt="الذكاء الاصطناعي" />
+                      <div class="feature-panel-body">
+                        <span class="mini-tag dark-tag">ذكاء اصطناعي</span>
+                        <h4>الذكاء الاصطناعي المحلي ينتقل من التجربة إلى الخدمات اليومية</h4>
+                        <p>أضفنا مساحة عرض أكبر للقصص التقنية المهمة مع طابع تصميمي أوضح وأكثر حيوية.</p>
+                        <a href="#archive" class="action-link">تابع الملف</a>
+                      </div>
+                    </article>
+                    <div class="stack-list">
+                      <article class="stack-item">
+                        <h4>حلول سحابية عربية تعزز استقلالية البيانات</h4>
+                        <p>تصميم مختصر ومريح للقراءة السريعة من الهاتف.</p>
+                      </article>
+                      <article class="stack-item">
+                        <h4>توسع الشركات في خدمات الأمن الرقمي للقطاعين العام والخاص</h4>
+                        <p>تسلسل بصري أوضح للعناوين والوصف والأزرار.</p>
+                      </article>
+                      <article class="stack-item">
+                        <h4>الأجهزة القابلة للارتداء تسجل طلبًا متزايدًا في الأسواق العربية</h4>
+                        <p>تجربة أنظف وأكثر سرعة من النسخة السابقة.</p>
+                      </article>
+                    </div>
+                  </div>
+                </section>
+
+                <section id="sports" class="news-block reveal-on-scroll">
+                  <div class="group-header">
+                    <h3>الرياضة</h3>
+                    <a href="#archive" class="view-all">كل التغطيات</a>
+                  </div>
+                  <div class="ticker-row">
+                    <div class="score-card">
+                      <span class="score-label">دوري النخبة</span>
+                      <strong>3 - 1</strong>
+                      <p>نهائي مثير وسط حضور جماهيري قياسي</p>
+                    </div>
+                    <div class="score-card">
+                      <span class="score-label">كرة السلة</span>
+                      <strong>92 - 88</strong>
+                      <p>عودة قوية في الثواني الأخيرة تقلب المواجهة</p>
+                    </div>
+                    <div class="score-card">
+                      <span class="score-label">ماراثون</span>
+                      <strong>42 KM</strong>
+                      <p>مشاركة دولية واسعة واهتمام إعلامي كبير</p>
+                    </div>
+                  </div>
+                </section>
+
+                <section id="archive" class="news-block archive-block reveal-on-scroll">
+                  <div class="group-header">
+                    <h3>أرشيف الأخبار</h3>
+                    <a href="#top" class="view-all">العودة للأعلى</a>
+                  </div>
+                  <div class="archive-list">
+                    <article class="archive-item">
+                      <span class="archive-time">09:10</span>
+                      <div>
+                        <h4>ملف خاص: كيف غيّر التصميم الجديد سلوك التصفح في المنصات الإخبارية؟</h4>
+                        <p>عرض خط زمني مبسط يجعل الأرشيف منظمًا وواضحًا حتى على الموبايل.</p>
+                      </div>
+                    </article>
+                    <article class="archive-item">
+                      <span class="archive-time">08:45</span>
+                      <div>
+                        <h4>تقرير: توسع الذكاء الاصطناعي يعيد رسم أولويات المؤسسات الإعلامية</h4>
+                        <p>إضافة مزيد من الأخبار تعطي الصفحة إحساس الموقع المتكامل بدل القالب القصير.</p>
+                      </div>
+                    </article>
+                    <article class="archive-item">
+                      <span class="archive-time">07:20</span>
+                      <div>
+                        <h4>الأسواق العالمية تترقب مرحلة جديدة من التنظيمات المالية الرقمية</h4>
+                        <p>كل قسم الآن مرتبط بروابط واضحة تعمل من الأعلى والأسفل.</p>
+                      </div>
+                    </article>
+                    <article class="archive-item">
+                      <span class="archive-time">06:30</span>
+                      <div>
+                        <h4>ملف رياضي: الجمهور يعود بقوة والمنافسة ترتفع في البطولات القارية</h4>
+                        <p>بطاقات وخط زمني ومربعات نتائج لتحسين الإحساس بالحيوية والتنوع.</p>
+                      </div>
+                    </article>
+                  </div>
+                </section>
+              </article>
+
+              <aside class="sidebar reveal-on-scroll">
+                <div class="sidebar-widget live-widget">
+                  <h3 class="widget-title">نبض مباشر</h3>
+                  <div class="live-pulse-item">
+                    <span class="pulse-dot"></span>
+                    <div>
+                      <h4>تحديثات متواصلة</h4>
+                      <p>واجهة أسرع للأخبار العاجلة والتنقل بين الأقسام.</p>
+                    </div>
+                  </div>
+                  <div class="live-pulse-item">
+                    <span class="pulse-dot"></span>
+                    <div>
+                      <h4>أداء أفضل على الهاتف</h4>
+                      <p>تقليل الزحام البصري وتكبير مناطق اللمس المهمة.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="sidebar-widget">
+                  <h3 class="widget-title">الأكثر تفاعلًا</h3>
+                  <div class="trending-list">
+                    <article class="trend-item">
+                      <span class="rank">01</span>
+                      <p>قوانين جديدة لتنظيم الذكاء الاصطناعي في المنطقة</p>
+                    </article>
+                    <article class="trend-item">
+                      <span class="rank">02</span>
+                      <p>انطلاق أكبر ماراثون رياضي بمشاركة عالمية</p>
+                    </article>
+                    <article class="trend-item">
+                      <span class="rank">03</span>
+                      <p>مستقبل العمل الحر في ظل التحول الرقمي</p>
+                    </article>
+                    <article class="trend-item">
+                      <span class="rank">04</span>
+                      <p>موجة جديدة من المنصات الإعلامية الذكية تدخل السوق</p>
+                    </article>
+                  </div>
+                </div>
+
+                <div class="sidebar-widget quick-links-widget">
+                  <h3 class="widget-title">روابط سريعة</h3>
+                  <div class="quick-links">
+                    <a href="#economy">اقتصاد</a>
+                    <a href="#tech">تقنية</a>
+                    <a href="#sports">رياضة</a>
+                    <a href="#archive">أرشيف</a>
+                  </div>
+                </div>
+
+                <div class="sidebar-widget newsletter-box" id="contact">
+                  <h3>تواصل أو اشترك</h3>
+                  <p>أرسل بريدك لتصلك أحدث التحديثات، أو استخدم النموذج السريع للتواصل مع فريق التحرير.</p>
+                  <form class="sub-form" id="newsletter-form">
+                    <input
+                      id="newsletter-email"
+                      type="email"
+                      placeholder="بريدك الإلكتروني"
+                      aria-label="البريد الإلكتروني"
+                      required
+                    />
+                    <button type="submit" aria-label="إرسال">
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </form>
+                  <p class="form-message" id="newsletter-message" aria-live="polite"></p>
+                  <a href="mailto:news@aya-media.example" class="contact-link">راسل التحرير مباشرة</a>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-section reveal-on-scroll">
+          <div class="container">
+            <div class="contact-card">
+              <div class="contact-copy">
+                <span class="section-badge">تواصل معنا</span>
+                <h2>هل تريد التعاون أو إرسال خبر؟</h2>
+                <p>
+                  أضفنا قسم تواصل أوضح وأسهل استخدامًا من الجوال، مع مناطق لمس مريحة
+                  ونموذج بسيط يعطي المستخدم إحساسًا بأن الموقع مكتمل الوظائف.
+                </p>
+              </div>
+              <form class="contact-form" id="contact-form">
+                <input type="text" id="contact-name" name="contact-name" placeholder="الاسم" required />
+                <input type="email" id="contact-email" name="contact-email" placeholder="البريد الإلكتروني" required />
+                <textarea id="contact-message" name="contact-message" rows="4" placeholder="اكتب رسالتك هنا" required></textarea>
+                <button type="submit" class="submit-btn">إرسال الرسالة</button>
+                <p class="form-message" id="contact-form-message" aria-live="polite"></p>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="global-footer">
+        <div class="container footer-widgets-modern">
+          <div class="tech-clock-container">
+            <div class="clock-glass-card">
+              <div class="clock-outer-ring"></div>
+              <div class="clock-inner-ring"></div>
+              <div class="clock-content">
+                <div class="time-main">
+                  <span id="clock-hours">00</span>
+                  <span class="blink">:</span>
+                  <span id="clock-minutes">00</span>
+                </div>
+                <div class="seconds-pill">
+                  <span id="clock-seconds">00</span>
+                </div>
+              </div>
+            </div>
+            <p class="global-status"><span class="status-dot"></span> مباشر - نبض العالم</p>
+          </div>
+
+          <div class="prayer-times-widget">
+            <div class="prayer-header"><i class="fas fa-moon"></i> مواقيت الصلاة</div>
+            <div class="prayer-grid">
+              <div class="prayer-box"><span>الفجر</span><p id="fajr-time">04:30</p></div>
+              <div class="prayer-box active"><span>الظهر</span><p id="dhuhr-time">12:15</p></div>
+              <div class="prayer-box"><span>العصر</span><p id="asr-time">03:45</p></div>
+              <div class="prayer-box"><span>المغرب</span><p id="maghrib-time">06:40</p></div>
+              <div class="prayer-box"><span>العشاء</span><p id="isha-time">08:10</p></div>
+            </div>
+          </div>
+
+          <div class="footer-info">
+            <h3>آية الإخبارية</h3>
+            <p>
+              موقع إخباري عربي متكامل بتصميم عصري ومتجاوب، يركز على الوضوح،
+              سهولة التنقل، وكثافة محتوى مدروسة تعمل جيدًا حتى على الهاتف.
+            </p>
+            <div class="social-links">
+              <a href="https://www.facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.twitter.com" target="_blank" rel="noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-branding">
+          <div class="container branding-flex">
+            <p class="copyright">جميع الحقوق محفوظة © 2026 آية ميديا</p>
+            <div class="footer-nav">
+              <a href="#top">من نحن</a>
+              <a href="#contact">تواصل معنا</a>
+              <a href="#archive">سياسة الخصوصية</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <nav class="mobile-bottom-nav" aria-label="تنقل الهاتف السريع">
+        <a href="#news"><i class="fas fa-house"></i><span>الرئيسية</span></a>
+        <a href="#economy"><i class="fas fa-chart-line"></i><span>اقتصاد</span></a>
+        <a href="#tech"><i class="fas fa-microchip"></i><span>تقنية</span></a>
+        <a href="#sports"><i class="fas fa-futbol"></i><span>رياضة</span></a>
+        <a href="#contact"><i class="fas fa-envelope"></i><span>تواصل</span></a>
+      </nav>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
