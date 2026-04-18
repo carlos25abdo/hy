@@ -168,6 +168,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   document.querySelectorAll(".reveal-on-scroll").forEach((element) => {
+    element.classList.add("js-hidden");
     revealObserver.observe(element);
   });
 

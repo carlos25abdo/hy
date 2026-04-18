@@ -149,9 +149,12 @@ textarea {
 }
 
 .reveal-on-scroll {
+  transition: opacity 0.75s ease, transform 0.75s ease;
+}
+
+.reveal-on-scroll.js-hidden:not(.is-visible) {
   opacity: 0;
   transform: translateY(32px);
-  transition: opacity 0.75s ease, transform 0.75s ease;
 }
 
 .reveal-on-scroll.is-visible {
